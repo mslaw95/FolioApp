@@ -3,9 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33516.290
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FolioApp.Api", "FolioApp.Api\FolioApp.Api.csproj", "{26A4DBA2-6BA8-4A9C-B16C-DF7523E331B1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FolioApp.Api", "FolioApp.Api\FolioApp.Api.csproj", "{26A4DBA2-6BA8-4A9C-B16C-DF7523E331B1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FolioApp.Data", "FolioApp.Data\FolioApp.Data.csproj", "{B99A6D7B-727E-4B85-A7F7-52EA62175E00}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FolioApp.Domain", "FolioApp.Domain\FolioApp.Domain.csproj", "{B99A6D7B-727E-4B85-A7F7-52EA62175E00}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FolioApp.Core", "FolioApp.Core\FolioApp.Core.csproj", "{A1FCD3DA-3262-44CD-BAC5-5B9B2FCB3368}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FolioApp.Test", "FolioApp.Test\FolioApp.Test.csproj", "{08F97428-74CF-48F5-B609-228C087D6ACC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +25,14 @@ Global
 		{B99A6D7B-727E-4B85-A7F7-52EA62175E00}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B99A6D7B-727E-4B85-A7F7-52EA62175E00}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B99A6D7B-727E-4B85-A7F7-52EA62175E00}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A1FCD3DA-3262-44CD-BAC5-5B9B2FCB3368}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1FCD3DA-3262-44CD-BAC5-5B9B2FCB3368}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1FCD3DA-3262-44CD-BAC5-5B9B2FCB3368}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1FCD3DA-3262-44CD-BAC5-5B9B2FCB3368}.Release|Any CPU.Build.0 = Release|Any CPU
+		{08F97428-74CF-48F5-B609-228C087D6ACC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08F97428-74CF-48F5-B609-228C087D6ACC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08F97428-74CF-48F5-B609-228C087D6ACC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08F97428-74CF-48F5-B609-228C087D6ACC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
